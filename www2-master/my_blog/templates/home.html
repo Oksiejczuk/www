@@ -1,9 +1,0 @@
-<h1>strona</h1>
-{{ user.is_authenticated}}
-
-{% if user.is_authenticated %}
-    <p>Cześć {{user}}</p>
-    <a href="polls">Ankiety</a>
-{% else %}
-    <p> nie jesteś zalogowany</p>
-{% endif %}
